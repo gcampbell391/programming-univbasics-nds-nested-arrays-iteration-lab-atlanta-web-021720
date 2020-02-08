@@ -4,8 +4,7 @@ def join_ingredients(src)
  while row_index < src.count do 
    element1 = 0
    element2 = 1
-    pizza_Strings.push("I love #{src[row_index][element_index]} and #{src[row_index][element2_index]} on my pizza")
-  end
+    pizza_Strings.push("I love #{src[row_index][element1]} and #{src[row_index][element2]} on my pizza")
   row_index += 1
 end
 pizza_Strings
