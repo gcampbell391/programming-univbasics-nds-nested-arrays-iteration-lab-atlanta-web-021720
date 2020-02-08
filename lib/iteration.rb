@@ -31,7 +31,7 @@ def total_even_pairs(src)
   inner_array = []
   while row_index < src.count do 
   element1 = 0
-  element2 = 0
+  element2 = 1
   total_evens_sum = 0
   if src[row_index][element1]%2 == 0 && src[row_index][element2]%2 == 0
     total_evens_sum += src[row_index][element1] + src[row_index][element2]
