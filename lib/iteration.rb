@@ -14,8 +14,15 @@ def find_greater_pair(src)
   row_index = 0
   inner_array = []
   while row_index < src.count do
-    
-
+    element1 = 0
+    element2 = 1
+    if src[row_index][element1] > src{row_index][element2]
+      inner_array.push(src[row_index][element1])
+    else
+      inner_array.push(src[row_index][element2])
+    row_index += 1
+  end
+  inner_array
 end
 
 def total_even_pairs(src)
