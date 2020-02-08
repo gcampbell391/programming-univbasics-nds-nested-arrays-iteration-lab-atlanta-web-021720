@@ -2,11 +2,9 @@ def join_ingredients(src)
  row_index = 0
  pizza_Strings = []
  while row_index < src.count do 
-   element_index = 0
-   element2_index = 1
-   while element_index < src[row_index].count do
+   element1 = 0
+   element2 = 1
     pizza_Strings.push("I love #{src[row_index][element_index]} and #{src[row_index][element2_index]} on my pizza")
-    element_index +=1
   end
   row_index += 1
 end
