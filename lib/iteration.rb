@@ -20,6 +20,7 @@ def find_greater_pair(src)
       inner_array.push(src[row_index][element1])
     else
       inner_array.push(src[row_index][element2])
+    end
     row_index += 1
   end
   inner_array
