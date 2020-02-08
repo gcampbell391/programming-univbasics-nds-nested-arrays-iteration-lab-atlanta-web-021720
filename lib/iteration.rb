@@ -34,7 +34,7 @@ def total_even_pairs(src)
   element2 = 1
   total_evens_sum = 0
   if src[row_index][element1]%2 == 0 && src[row_index][element2]%2 == 0
-    total_evens_sum += src[row_index][element1] + src[row_index][element2]
+    total_evens_sum = src[row_index][element1] + src[row_index][element2]
   end
   row_index +=1
 end 
